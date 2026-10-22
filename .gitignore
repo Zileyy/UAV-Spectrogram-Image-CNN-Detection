@@ -1,0 +1,26 @@
+# Local environments
+.venv/
+.venv*/
+venv/
+env/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test, type-checking, and linting caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Model checkpoints
+*.pth
+model_tester/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
